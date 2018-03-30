@@ -1,0 +1,8 @@
+    compile 'uk.co.chrisjenx:calligraphy:2.3.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'com.android.support:support-v4:26.1.0'
+    compile "com.quickblox:quickblox-android-sdk-core:2.5.1@aar"
+    compile("com.quickblox:quickblox-android-sdk-chat:2.5.1@aar") {
+        transitive = true
+    }
